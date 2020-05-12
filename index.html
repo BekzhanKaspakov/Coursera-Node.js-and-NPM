@@ -139,6 +139,19 @@
                         </dd>
                     </dl>
                     <dl class="form-row">
+                        <dd class="form-group row">
+                            <label for="radiobutt" class="col-12 col-md-4 col-form-label">Section</label>
+                            <div id="radiobutt" class="offset-md-1 col-12 col-sm-4 btn-group btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-success active">
+                                  <input type="radio" name="options" id="option1" autocomplete="off" checked> Non-Smoking
+                                </label>
+                                <label class="btn btn-danger">
+                                  <input type="radio" name="options" id="option2" autocomplete="off"> Smoking
+                                </label>
+                              </div>
+                        </dd>
+                    </dl>
+                    <dl class="form-row">
                         <!-- <dt class="col-2">Date and Time</dt> -->
                         <dd class="col-12">
                             <div class="form-group row">
@@ -308,11 +321,7 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $('[data-toggle="tooltip"]').tooltip();
-        });
-    </script>
+
 </body>
 
 </html>
